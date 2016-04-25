@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html style="width:100%; height:100%">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="http://www.tusubtitulo.com/original/30796/1"></script>
+	<title>SRT Editor</title>
+</head>
+<body style="width:100%; height:100%">
+	<div id="container" style="width:100%; height:100%">
+    <div>
+      <span>File</span>
+		  <input type="file" name="file" id="file">
+    </div>
+    <div>
+      <span>Time offset</span>
+		  <input type="text" name="time" id="time" value="00:00:00,000">
+    </div>
+    <div>
+      <span>Sync!</span>
+		  <input type="button" name="sync" id="sync" value="Sync!">
+    </div>
+    <div>
+      <span>Download!</span>
+		  <input type="button" name="download" id="download" value="Download">
+    </div>
+    <div>
+      <span>Synced file</span>
+      <div id="output" style="width:100%; height:100%"></div>
+    </div>
+	</div>
+  <script type="text/javascript" src="js/srtparser.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
